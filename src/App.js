@@ -7,6 +7,7 @@ function App() {
   const [number, setNumber] = useState('')
 
   const logAnswer = (num) => {
+    console.log('logAnswer called')
     const debounceNumber = debounce(() => {
       let crestCount = 0
       let infotechCount = 0
@@ -94,7 +95,7 @@ function App() {
                     key={index}
                     type="submit"
                     className="listitem"
-                    onSubmit={() => logAnswer(num)}
+                    onClick={() => logAnswer(num)}
                   >
                     {num}
                   </button>
@@ -106,7 +107,7 @@ function App() {
               <button
                 className="submitbutton"
                 type="submit"
-                onSubmit={showAllResult}
+                onClick={showAllResult}
               >
                 Get All Result
               </button>
