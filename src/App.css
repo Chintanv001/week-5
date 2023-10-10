@@ -76,7 +76,7 @@ button:hover{
 
 .listitem{
   display: flex;
-  
+  margin: 10px;
   justify-content: center;
   align-items: center;
   height: 45px;
