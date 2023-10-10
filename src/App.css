@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+.mainheading-text {
+  display: flex;
+  justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.maininputbox {
+  display: flex;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainoutputbox{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inputbox {
+  height: 261px;
+  width: 855px;
+  background-color: rgba(214, 221, 221, 0.855);
+  border-radius: 20px;
+}
+
+.headinginsidebox{
+  display: flex;
+  justify-content: center;
+}
+
+.inputnumber{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.inputdiv{
+  display: flex;
+  justify-content: center;
+}
+
+.buttondiv{
+  display: flex;
+  justify-content: center;
+}
+
+.submitbutton{
+  padding: 10px;
+  margin: 20px;
+  background-color: rgb(104, 104, 169);
+  color: white;
+  border-radius: 10px;
+}
+
+button:hover{
+  background-color: rgb(43, 43, 124);
+  cursor: pointer;
+}
+
+.outputbox{
+  height: auto;
+  width: 855px;
+  background-color: rgba(214, 221, 221, 0.855);
+  border-radius: 20px;
+
+}
+
+.listdiv{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.mainlistdiv{
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.listitem{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 205px;
+  background-color: rgb(154, 160, 166);
+  border-radius: 20px;
+}
+
+.listitem:hover{
+  cursor: pointer;
+  background-color:  rgb(90, 99, 107); 
 }
